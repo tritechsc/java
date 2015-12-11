@@ -4,8 +4,8 @@ class DecBin{
    int n; 
    String bin; String hex;
    
-   for (n = 0; n < 256; n ++){
-		if (256 % 2 == 0{	
+   for (n = 128; n < 256; n ++){
+		if (n % 2 == 0){
 			bin = Integer.toBinaryString(n);
 			System.out.print(n+" "+bin+"\n");
 		}
