@@ -30,8 +30,7 @@ class IsPrime {
 	}
 }//end class IsPrime
 
-public class 
- extends JFrame { //change the name of class to match the name of the java file
+public class UlamPlotScale extends JFrame { //change the name of class to match the name of the java file
 	//  Use proper namesapce .  The name of the class should be capitalized.
 	
    public UlamPlotScale()
