@@ -1,4 +1,11 @@
 # java
+Integers
+Type    Bits    Range
+byte    8       -128 to 127
+short   16      -32,768 to 32,767
+int     32      -2,147,483,648 to  2,147,483,647
+long    64      -9,223,372,036,854,775,808    to  
+
 byte: The byte data type is an 8-bit signed two's complement integer. It has a minimum value of -128 and a maximum value of 127 (inclusive). The byte data type can be useful for saving memory in large arrays, where the memory savings actually matters. They can also be used in place of int where their limits help to clarify your code; the fact that a variable's range is limited can serve as a form of documentation.
 
 short: The short data type is a 16-bit signed two's complement integer. It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive). As with byte, the same guidelines apply: you can use a short to save memory in large arrays, in situations where the memory savings actually matters.
