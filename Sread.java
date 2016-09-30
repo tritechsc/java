@@ -1,7 +1,8 @@
+//inheritance
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
+//this code reads a file call words.txt
 class Sread {
 
 	public static void main(String[] args) {
