@@ -5,10 +5,10 @@ import java.io.IOException;
 class Bread {
 
 	public static void main(String[] args) {
-		//variables
+		//variables (cwc)
 		int wordlength;
-		int max = 0;
-		int totalchars;
+		int maxvalue = 0;
+		int totalchars = 0;
 		int count = 0;
 
 		BufferedReader br = null;
@@ -19,12 +19,10 @@ class Bread {
 			br = new BufferedReader(new FileReader("words.txt"));
 			while ((sCurrentLine = br.readLine()) != null) {
 				wordlength = sCurrentLine.length();
-				if (wordlength > max )max = wordlength;
-				
-				System.out.print(wordlength+" ");
 				System.out.println(sCurrentLine);
-				count++;
-					System.out.println("count"+count+" max "+max);
+				/*
+				write code here to collect statistics
+				*/
 			}
 
 		} catch (IOException e) {
