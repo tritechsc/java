@@ -20,6 +20,9 @@ class Cread {
         current = (char) fis.read();
         System.in.read(); // this is a debug
         System.out.print(current);
+        /*
+          Write code here to get charater statistics.
+         * /
       }
     } catch (IOException e) {
       e.printStackTrace();
