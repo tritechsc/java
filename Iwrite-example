@@ -9,8 +9,8 @@ public class Iwrite {
         FileWriter outputStream = null;
 
         try {
-            inputStream = new FileReader("xanadu.txt");
-            outputStream = new FileWriter("characteroutput.txt");
+            inputStream = new FileReader("inputfile.txt");
+            outputStream = new FileWriter("outputfile.txt");
 
             int c;
 		
