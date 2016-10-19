@@ -1,3 +1,4 @@
+// code by cwcoleman tritechsc.github.io * * * * * * * " *
 //inheritance
 import java.io.BufferedReader;
 import java.io.FileReader;

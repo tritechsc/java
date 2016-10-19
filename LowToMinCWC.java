@@ -1,3 +1,4 @@
+// code by cwcoleman tritechsc.github.io * * * * * * * " *
 class LowToMinCWC{
 	public static void main (String args[]){
 			double random;

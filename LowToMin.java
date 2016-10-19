@@ -1,3 +1,4 @@
+// code by cwcoleman tritechsc.github.io * * * * * * * " *
 class LowToMin{
 	public static void main (String args[]){
 			
